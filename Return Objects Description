@@ -1,0 +1,186 @@
+#################################
+# First Object: Generic Data
+#################################
+
+                           value       currency
+AccountCode                DU15109             
+AccountOrGroup             DU15109     USD     
+AccountReady               true                
+AccountType                UNIVERSAL           
+AccruedCash                0           USD     
+AccruedCash.C              0.00        USD     
+AccruedCash.S              0.00        USD     
+AccruedDividend            0.00        USD     
+AccruedDividend.C          0.00        USD     
+AccruedDividend.S          0.00        USD     
+AvailableFunds             154389.28   USD     
+AvailableFunds.C           -154882.13  USD     
+AvailableFunds.S           309271.42   USD     
+Billable                   0.00        USD     
+Billable.C                 0.00        USD     
+Billable.S                 0.00        USD     
+BuyingPower                1625707.12  USD     
+CashBalance                498074      USD     
+CorporateBondValue         0           USD     
+Currency                   USD         USD     
+Cushion                    0.815992            
+DayTradesRemaining         -1                  
+DayTradesRemainingT.1      -1                  
+DayTradesRemainingT.2      -1                  
+DayTradesRemainingT.3      -1                  
+DayTradesRemainingT.4      -1                  
+EquityWithLoanValue        406426.78   USD     
+EquityWithLoanValue.C      97155.37    USD     
+EquityWithLoanValue.S      309271.42   USD     
+ExcessLiquidity            406426.78   USD     
+ExcessLiquidity.C          97155.37    USD     
+ExcessLiquidity.S          309271.42   USD     
+ExchangeRate               1.00        USD     
+FullAvailableFunds         39826.78    USD     
+FullAvailableFunds.C       -269444.63  USD     
+FullAvailableFunds.S       309271.42   USD     
+FullExcessLiquidity        314776.78   USD     
+FullExcessLiquidity.C      5505.37     USD     
+FullExcessLiquidity.S      309271.42   USD     
+FullInitMarginReq          458250.00   USD     
+FullInitMarginReq.C        458250.00   USD     
+FullInitMarginReq.S        0.00        USD     
+FullMaintMarginReq         183300.00   USD     
+FullMaintMarginReq.C       183300.00   USD     
+FullMaintMarginReq.S       0.00        USD     
+FundValue                  0           USD     
+FutureOptionValue          0           USD     
+FuturesPNL                 -1797       USD     
+FxCashBalance              0           USD     
+GrossPositionValue         0.00        USD     
+GrossPositionValue.S       0.00        USD     
+IndianStockHaircut         0.00        USD     
+IndianStockHaircut.C       0.00        USD     
+IndianStockHaircut.S       0.00        USD     
+InitMarginReq              343687.50   USD     
+InitMarginReq.C            343687.50   USD     
+InitMarginReq.S            0.00        USD     
+IssuerOptionValue          0           USD     
+Leverage.S                 0.00                
+LookAheadAvailableFunds    39826.78    USD     
+LookAheadAvailableFunds.C  -269444.63  USD     
+LookAheadAvailableFunds.S  309271.42   USD     
+LookAheadExcessLiquidity   314776.78   USD     
+LookAheadExcessLiquidity.C 5505.37     USD     
+LookAheadExcessLiquidity.S 309271.42   USD     
+LookAheadInitMarginReq     458250.00   USD     
+LookAheadInitMarginReq.C   458250.00   USD     
+LookAheadInitMarginReq.S   0.00        USD     
+LookAheadMaintMarginReq    183300.00   USD     
+LookAheadMaintMarginReq.C  183300.00   USD     
+LookAheadMaintMarginReq.S  0.00        USD     
+LookAheadNextChange        1468353600          
+MaintMarginReq             91650.00    USD     
+MaintMarginReq.C           91650.00    USD     
+MaintMarginReq.S           0.00        USD     
+MoneyMarketFundValue       0           USD     
+MutualFundValue            0           USD     
+NetDividend                0           USD     
+NetLiquidation             498076.78   USD     
+NetLiquidation.C           188805.37   USD     
+NetLiquidation.S           309271.42   USD     
+NetLiquidationByCurrency   498074      USD     
+NetLiquidationUncertainty  0.00        USD     
+OptionMarketValue          0           USD     
+PASharesValue              0.00        USD     
+PASharesValue.C            0.00        USD     
+PASharesValue.S            0.00        USD     
+PostExpirationExcess       0.00        USD     
+PostExpirationExcess.C     0.00        USD     
+PostExpirationExcess.S     0.00        USD     
+PostExpirationMargin       0.00        USD     
+PostExpirationMargin.C     0.00        USD     
+PostExpirationMargin.S     0.00        USD     
+RealCurrency               USD         USD     
+RealizedPnL                28          USD     
+RegTEquity                 309271.42   USD     
+RegTEquity.S               309271.42   USD     
+RegTMargin                 0.00        USD     
+RegTMargin.S               0.00        USD     
+SMA                        309271.46   USD     
+SMA.S                      309271.46   USD     
+SegmentTitle.C             Commodities         
+SegmentTitle.S             Securities          
+StockMarketValue           0           USD     
+TBillValue                 0           USD     
+TBondValue                 0           USD     
+TotalCashBalance           498074      USD     
+TotalCashValue             498076.78   USD     
+TotalCashValue.C           188805.37   USD     
+TotalCashValue.S           309271.42   USD     
+TradingType.S              STKNOPT             
+UnrealizedPnL              -1951       USD     
+WarrantValue               0           USD     
+WhatIfPMEnabled            true   
+
+#################################
+# Second Object: Positions Data
+#################################
+
+# This object has one list for each position
+# Each position has 2 objects:
+# a contract description, and a position description
+# for that contract
+
+
+List of 2
+ $ contract      :List of 16
+  ..$ conId          : chr "12087792"
+  ..$ symbol         : chr "EUR"
+  ..$ sectype        : chr "CASH"
+  ..$ exch           : chr "IDEALPRO"
+  ..$ primary        : chr "IDEALPRO"
+  ..$ expiry         : chr ""
+  ..$ strike         : chr "0"
+  ..$ currency       : chr "USD"
+  ..$ right          : chr "0"
+  ..$ local          : chr "EUR.USD"
+  ..$ multiplier     : chr ""
+  ..$ combo_legs_desc: chr ""
+  ..$ comboleg       : chr ""
+  ..$ include_expired: chr ""
+  ..$ secIdType      : chr ""
+  ..$ secId          : chr ""
+  ..- attr(*, "class")# chr "twsContract"
+ $ portfolioValue:List of 7
+  ..$ position     : num 3
+  ..$ marketPrice  : num 1.09
+  ..$ marketValue  : num 3.28
+  ..$ averageCost  : num 1.11
+  ..$ unrealizedPNL: num -0.05
+  ..$ realizedPNL  : num 0
+  ..$ accountName  : chr "DU15109"
+
+[[2]]
+List of 2
+ $ contract      :List of 16
+  ..$ conId          : chr "206848411"
+  ..$ symbol         : chr "YM"
+  ..$ sectype        : chr "FUT"
+  ..$ exch           : chr "ECBOT"
+  ..$ primary        : chr "ECBOT"
+  ..$ expiry         : chr "20160916"
+  ..$ strike         : chr "0"
+  ..$ currency       : chr "USD"
+  ..$ right          : chr "0"
+  ..$ local          : chr "YM   SEP 16"
+  ..$ multiplier     : chr "5"
+  ..$ combo_legs_desc: chr ""
+  ..$ comboleg       : chr ""
+  ..$ include_expired: chr ""
+  ..$ secIdType      : chr ""
+  ..$ secId          : chr ""
+  ..- attr(*, "class")# chr "twsContract"
+ $ portfolioValue:List of 7
+  ..$ position     : num 47
+  ..$ marketPrice  : num 18008
+  ..$ marketValue  : num 4231998
+  ..$ averageCost  : num 90084
+  ..$ unrealizedPNL: num -1951
+  ..$ realizedPNL  : num 27.8
+  ..$ accountName  : chr "DU15109"
